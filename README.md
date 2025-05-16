@@ -41,16 +41,25 @@ python pc_tracker_bot.py
 Usage
 Control your PC remotely by sending commands to your Telegram bot.
 
-Command	Description
-/alarm <msg>	Show a popup alarm with beep
-/warning <msg>	Show a popup warning (no beep)
-/cam	Take and send webcam photo
-/specs	Show PC specs
-/ip	Show local and public IP addresses
-/location	Show geolocation info
-/user	Show username
-/battery	Take a screenshot and send it
-/allinfo	Show full system info and location
+📜 Bot Commands Overview
+/alarm <message> – Triggers a popup window with your custom message and a beep sound to alert the user.
+
+/warning <message> – Shows a popup window with your custom warning message (⚠️ no beep).
+
+/cam – Captures a photo using the webcam and sends it to your Telegram.
+
+/specs – Displays basic PC specifications like hostname, OS, and processor info.
+
+/ip – Shows the device's local IP and public IP addresses.
+
+/location – Retrieves geolocation details based on IP (city, country, coordinates).
+
+/user – Returns the current logged-in username.
+
+/battery – Takes a screenshot and sends it via Telegram.
+
+/allinfo – Sends full system information and geolocation in one command.
+
 
 Legal Usage
 This project is provided “as-is” without any warranty. Use it responsibly and at your own risk.
